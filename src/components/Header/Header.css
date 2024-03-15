@@ -1,0 +1,12 @@
+.nav-item .active {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-item a:not(.active) {
+    color: hsla(0, 0%, 100%, .55);
+}
+
+.nav-item a:not(.active):hover {
+    color: hsla(0, 0%, 100%, .75);
+}
